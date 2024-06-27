@@ -1,0 +1,16 @@
+.label-container {
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.label-text {
+  color: white;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.label-message {
+  color: white;
+}

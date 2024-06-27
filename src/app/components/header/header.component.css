@@ -1,0 +1,13 @@
+.header-container {
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text {
+  color: white;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-shadow: 3px 3px 5px rgb(43, 43, 43);
+}

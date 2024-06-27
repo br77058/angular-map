@@ -1,0 +1,25 @@
+<div class="map-container">
+  <app-header text="World Map 🌎"></app-header>
+  <div class="row">
+    <div class="column map-column">
+      <mat-icon
+        svgIcon="map_icon"
+        class="map-svg"
+        (click)="onPathClick($event)"
+        (mouseover)="onPathHover($event)"
+        (mouseout)="onPathLeave($event)"
+      ></mat-icon>
+    </div>
+    <div class="column info-column">
+      <h2 class="info-column-header">Country Information</h2>
+      <div class="info-container">
+        <app-label labelName="COUNTRY" [customText]="countryName"></app-label>
+        <app-label labelName="REGION" [customText]="region"></app-label>
+        <app-label labelName="INCOME" [customText]="incomeLevel"></app-label>
+        <app-label labelName="LONGITUDE" [customText]="longitude"></app-label>
+        <app-label labelName="LATITUDE" [customText]="latitude"></app-label>
+      </div>
+      <p class="citation-container">Powered By <span>The World Bank</span></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+.map-container {
+  background: rgb(0, 183, 255);
+  background: linear-gradient(
+    180deg,
+    rgb(18, 160, 255) 0%,
+    rgb(0, 36, 182) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.map-column {
+  width: 80vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-column {
+  border-left: 1px solid white;
+  width: 20vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.map-svg {
+  width: 98%;
+  height: 98%;
+  fill: white;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  transition: fill 0.3s ease;
+}
+
+.info-column-header {
+  color: white;
+  padding: 2rem;
+}
+
+.info-container {
+  border: 1px solid white;
+  width: 90%;
+  min-height: 30%;
+}
+
+span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.citation-container {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
